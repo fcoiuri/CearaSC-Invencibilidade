@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" charset="utf-8" />
+    <title>Ceará Invencibilidade</title>
+</head>
+
+
+<body>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0%;
+            background-color: black;
+            
+        }
+
+        #site {
+            height: 100%;
+            width: 100%;
+            margin: 0px auto;
+
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        div.simbolo{
+            text-align: center;
+        }
+        div.git{
+            text-align: end;
+        }
+
+        
+    </style>
+    
+    <div id="site">
+        <br />
+        <h2 style="font-size: 150;">
+            <script type="text/javascript">
+                var data = new Date()
+                document.write(`Hora: ${data.getHours()}:${data.getMinutes()}:${data.getSeconds()}`)
+            </script>
+            <br />
+
+            <script type="text/javascript">
+                document.write(`Dia: ${data.getDate()}/${data.getMonth()+1}/${data.getFullYear()}`)
+            </script>
+
+        </h2>
+
+        <h1 style="font-size: 150;"> Há quanto tempo o Ceará Sporting Club está invicto?</h1>
+        <h1 style="font-size: 150;">
+            <script type="text/javascript">
+                const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+                const firstDate = new Date(2019, 12, 04);
+                const secondDate = new Date(data.getFullYear(), data.getMonth() + 1, data.getDate());
+
+                const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
+
+                document.write(`O Ceará está invicto há ${diffDays} dia(s)`)
+            </script>
+        </h1>
+
+        <h1 style="font-size: 150;">
+            <script type="text/javascript">
+                const week = Math.round(diffDays / 7)
+                const dias_rw = diffDays % 7
+                document.write(`${week} semanas e ${dias_rw} dia(s)`)
+            </script>
+        </h1>
+
+        <h1 style="font-size: 150;">
+            <script type="text/javascript">
+                const ano = 0
+                const mes = Math.round(diffDays / 30)
+                const dias_rm = diffDays % 30
+                document.write(`${ano} ano(s), ${mes} mes(es) e ${dias_rm} dia(s)`)
+            </script>
+        </h1>
+
+        <div class="simbolo">
+    
+            <img src="https://pbs.twimg.com/profile_images/1233504038311858183/bIw71QRN_400x400.jpg" alt="Vozão" style="max-width: 100px">
+            <img src="https://pbs.twimg.com/profile_images/1233504038311858183/bIw71QRN_400x400.jpg" alt="Vozão" style="max-width: 100px;">
+            <img src="https://pbs.twimg.com/profile_images/1233504038311858183/bIw71QRN_400x400.jpg" alt="Vozão" style="max-width: 100px;">
+        </div>
+        <h4 style="font-size: 150;"> *Único Invicto do Brasil <img src="https://media.giphy.com/media/xiE7KEXydsgDVcFEOk/giphy.gif" alt="Respeita" style="max-width: 100px"></h4>
+        
+        <div class="git">
+            <a href="https://github.com/FranciscoIuri/">
+            <img src="https://i.imgur.com/92QWWVl.png" alt="Criador" style="max-width: 50px; " >
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

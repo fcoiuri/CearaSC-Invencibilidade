@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+#site{
+    width: 500px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+h1,p{
+    text-align: center;
+}
+
+image{
+    text-align: center;
+}
