@@ -73,7 +73,7 @@
 
         <h1 style="font-size: 150;">
             <script type="text/javascript">
-                const week = Math.abs(diffDays / 7)
+                const week = Math.min(diffDays / 7)
                 const dias_rw = diffDays % 7
                 document.write(`${week} semanas e ${dias_rw} dia(s)`)
             </script>
@@ -82,7 +82,7 @@
         <h1 style="font-size: 150;">
             <script type="text/javascript">
                 const ano = 0
-                const mes = Math.abs(diffDays / 30)
+                const mes = Math.min(diffDays / 30)
                 const dias_rm = diffDays % 30
                 document.write(`${ano} ano(s), ${mes} mes(es) e ${dias_rm} dia(s)`)
             </script>
