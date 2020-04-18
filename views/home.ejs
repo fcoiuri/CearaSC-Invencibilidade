@@ -65,7 +65,7 @@
                 const firstDate = new Date(2019, 12, 04);
                 const secondDate = new Date(data.getFullYear(), data.getMonth() + 1, data.getDate());
 
-                const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
+                const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay)) + 1
 
                 document.write(`O Ceará está invicto há ${diffDays} dia(s)`)
             </script>
