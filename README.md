@@ -5,6 +5,6 @@
 ## Página que mostra a invencibilidade.
 <p align="center">
 <font>
-<img src = "https://github.com/FranciscoIuri/CearaSC-Invencibilidade/blob/master/Site.PNG" width = "720" height =  "1080" >
+<img src = "https://github.com/FranciscoIuri/CearaSC-Invencibilidade/blob/master/Site.PNG" width = "948" height =  "778" >
 </font>
 </p>
