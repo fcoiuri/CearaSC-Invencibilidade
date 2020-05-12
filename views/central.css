@@ -1,17 +1,35 @@
-body{
-    background-color: black;
+#textoP {
+    font-size: 150;
+    text-align: center;
+    color: white;
+    padding: 0px;
 }
 
-#site{
+body {
+    height: 100%;
     width: 500px;
     margin: 0px auto;
     background-color: black;
+    padding: 0px;
 }
 
-h1,p{
+.fundo {
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+
+#site {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.simbolo {
     text-align: center;
 }
 
-image{
-    text-align: center;
+.git {
+    text-align: end;
 }
