@@ -1,27 +1,17 @@
 #textoP {
-    font-size: 150px;
+    font-size: 150;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
+    padding: 0px;
 }
 
-
-/* #body{
-    background-color: black;
-}
-
-#site{
+body {
+    height: 100%;
     width: 500px;
     margin: 0px auto;
     background-color: black;
+    padding: 0px;
 }
-
-h1,p{
-    text-align: center;
-}
-
-image{
-    text-align: center;
-} */
 
 .fundo {
     height: 100%;
@@ -36,10 +26,10 @@ image{
     margin: 0px auto;
 }
 
-.div.simbolo {
+.simbolo {
     text-align: center;
 }
 
-.div.git {
+.git {
     text-align: end;
 }
