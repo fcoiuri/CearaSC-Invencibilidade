@@ -1,0 +1,45 @@
+#textoP {
+    font-size: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+/* #body{
+    background-color: black;
+}
+
+#site{
+    width: 500px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+h1,p{
+    text-align: center;
+}
+
+image{
+    text-align: center;
+} */
+
+.fundo {
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+
+#site {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.div.simbolo {
+    text-align: center;
+}
+
+.div.git {
+    text-align: end;
+}
