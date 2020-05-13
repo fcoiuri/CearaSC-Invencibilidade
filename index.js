@@ -2,9 +2,9 @@ const express = require("express")
 const app = express()
 
 app.set("view engine", "ejs")
-app.set("views", "./views")
+app.set("views", "./public")
 
-app.use(express.static(__dirname + '/views'))
+app.use(express.static(__dirname + '/public'))
 app.listen(process.env.PORT || 3000);
 
 app.get("/", function(req, res) {
