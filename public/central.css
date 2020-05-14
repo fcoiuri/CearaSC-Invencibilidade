@@ -26,10 +26,24 @@ body {
     margin: 0px auto;
 }
 
-.simbolo {
+#simbolo img {
+    display: inline-block;
+    margin: auto;
+    max-width: 100px;
+}
+
+.center {
     text-align: center;
 }
 
-.git {
-    text-align: end;
+.vozao {
+    max-width: 100px;
+}
+
+.git img {
+    max-width: 100px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    float: right;
 }
