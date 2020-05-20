@@ -5,19 +5,18 @@
     padding: 0px;
 }
 
+#textoP:hover {
+    background-color: white;
+    color: black;
+}
+
 body {
     height: 100%;
     width: 500px;
     margin: 0px auto;
     background-color: black;
     padding: 0px;
-}
-
-.fundo {
-    height: 100%;
-    margin: 0;
-    padding: 0%;
-    background-color: black;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 #site {
