@@ -7,6 +7,7 @@ function tempo() {
     var mes = data.getMonth() + 1
     var ano = data.getFullYear()
 
+    hora = checarTempo(hora)
     minuto = checarTempo(minuto);
     segundo = checarTempo(segundo);
     mes = checarTempo(mes)
