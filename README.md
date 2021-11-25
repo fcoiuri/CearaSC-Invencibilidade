@@ -1,4 +1,7 @@
 # [CearaSC-Invencibilidade](https://web.archive.org/web/20200716063947/https://cearasc2020.herokuapp.com/) 
+## Bibliotecas/Frameworks utilizadas:
+* Express;
+* Nodemon.
 
 ## Exibe há quanto tempo o Ceará Sporting Club estava invicto no futebol no ano de 2020.  
 ### Página foi retirada do ar e adicionada ao archive.  
